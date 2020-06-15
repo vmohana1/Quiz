@@ -17,7 +17,7 @@
 					</b-list-group-item>
 			</b-list-group>
 
-			<b-button variant="primary"
+			<b-button id="submit-btn" variant="primary"
 			@click="submitAnswer"
 			:disabled="selectedIndex === null || answered"
 			>Submit</b-button>
